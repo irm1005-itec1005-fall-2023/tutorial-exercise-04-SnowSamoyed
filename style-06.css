@@ -10,24 +10,54 @@
 /* YOU CAN CHANGE THE HTML CODE IF YOU WANT - BUT IT WILL WORK WITHOUT ANY CHANGES */
 /* YOU CAN CHANGE THE LOGO AS WELL IF YOU WANT */
 
-header {}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  background-color: rgb(184, 118, 83);
+  color: beige;
+}
 
-.logo-heading-wrapper {}
+.logo-heading-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+}
 
-header nav {}
+.logo-heading-wrapper h2 {
+  margin-left: 1rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* This removes the discs / bullets from the list items */
 header nav ul {
   list-style: none;
   margin: 0px;
   padding: 0px;
+  
 }
 
-header nav ul li {}
+header nav ul li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 
-header nav ul li a {}
+header nav ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+}
 
-header nav ul li a:hover {}
+header nav ul li a:hover {
+  color: rgb(241, 241, 130);
+}
 
 /*
  * YOU ARE DONE WITH THIS FILE

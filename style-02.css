@@ -15,6 +15,10 @@
   /* 2. Add a justify-content property so that the red box is on the right side */
 
   /* 3. Use the align-items property to move both boxes to the top (start) */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .item:last-child {
@@ -28,6 +32,9 @@
     end
 
   */
+
+  align-self: end;
+
 }
 
 /*

@@ -18,6 +18,11 @@
 
   /* There are other ways to center a div - if you use another way that's cool too */
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 /*
